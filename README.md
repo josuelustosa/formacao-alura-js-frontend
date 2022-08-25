@@ -1,5 +1,5 @@
 # :mortar_board: Formação Alura: JavaScript para Front-end
-### Este repositório é destinado aos projetos dos cursos da **Formação: JavaScript para Front-end**, que realizei na plataforma **Alura**.
+### Este repositório é destinado aos projetos dos cursos da **Formação: JavaScript para Front-end**, que realizei na plataforma **Alura**. Clique [AQUI](https://josuelustosa.github.io/formacao-alura-js-frontend/) e confira os projetos desenvolvidos durante o curso, no ar.
 
 ---
 

@@ -1,3 +1,16 @@
+/* Importando fontes */
+@font-face {
+  font-family: "Jura";
+  src: url(../fonts/Jura/static/Jura-Bold.ttf);
+  font-weight: 100 1000;
+}
+
+@font-face {
+  font-family: "Jura", sans-serif;
+  src: url(../fonts/Jura/static/Jura-Medium.ttf);
+  font-weight: 100 1000;
+}
+
 /* Removendo propriedades padrões de css dos navegadores */
 * {
   margin: 0;
@@ -12,55 +25,69 @@
   --h4-color: #808080;
   --p-color: #061b36;
 
+  --font-bold: "Jura", sans-serif;
+  --font-medium: "Jura", sans-serif;
+
+
   /* Elementos semânticos */
-  --header-background: #6BD1FF;
+  --header-background: #6bd1ff;
   --nav-background: #ffffff;
   --main-background: #fafcff;
 }
 
 h1 {
-    color: var(--h1-color);
-    font-size: 2rem;
-    text-transform: uppercase;
-    
+  color: var(--h1-color);
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: var(--font-bold);
 }
 
 .subtitulo-header {
-    color: var(--h1-color);
-    font-size: 1rem;
+  color: var(--h1-color);
+  font-size: 1rem;
+  font-family: var(--font-bold);
 }
 
 h2 {
   color: var(--h2-color);
   text-transform: uppercase;
   font-size: 1.5rem;
+  font-family: var(--font-bold);
 }
 
 h3 {
   color: var(--h3-color);
   font-size: 1.125rem;
+  font-family: var(--font-bold);
 }
 
 h4 {
   color: var(--h3-color);
   font-size: 1rem;
+  font-family: var(--font-bold);
 }
 
 p {
   color: var(--p-color);
   font-size: 1rem;
+  font-family: var(--font-medium);
+}
+
+ul, li {
+  font-size: 1rem;
+  font-family: var(--font-medium);
 }
 
 header {
-    background-color: var(--header-background);
+  background-color: var(--header-background);
 }
 
 nav {
-    background-color: var(--nav-background);
+  background-color: var(--nav-background);
 }
 
 .icone-nav {
-    color: var(--h4-color);
+  color: var(--h4-color);
 }
 
 main {

@@ -22,7 +22,6 @@
   --h1-color: #ffffff;
   --h2-color: #6bd1ff;
   --h3-color: #808080;
-  --h4-color: #808080;
   --p-color: #061b36;
 
   --font-bold: "Jura", "Courier New", "Arial";
@@ -57,12 +56,6 @@ h2 {
 h3 {
   color: var(--h3-color);
   font-size: 1.125rem;
-  font-family: var(--font-bold);
-}
-
-h4 {
-  color: var(--h3-color);
-  font-size: 1rem;
   font-family: var(--font-bold);
 }
 

@@ -1,13 +1,13 @@
 /* Importando fontes */
 @font-face {
   font-family: "Jura";
-  src: url(../fonts/Jura/static/Jura-Bold.ttf);
+  src: url(../fonts/Jura-Bold.ttf);
   font-weight: 100 1000;
 }
 
 @font-face {
-  font-family: "Jura", sans-serif;
-  src: url(../fonts/Jura/static/Jura-Medium.ttf);
+  font-family: "Jura";
+  src: url(../fonts/Jura-Medium.ttf);
   font-weight: 100 1000;
 }
 
@@ -25,9 +25,8 @@
   --h4-color: #808080;
   --p-color: #061b36;
 
-  --font-bold: "Jura", sans-serif;
-  --font-medium: "Jura", sans-serif;
-
+  --font-bold: "Jura", "Courier New", "Arial";
+  --font-medium: "Jura", "Courier New", "Arial";
 
   /* Elementos semânticos */
   --header-background: #6bd1ff;
@@ -73,7 +72,8 @@ p {
   font-family: var(--font-medium);
 }
 
-ul, li {
+ul,
+li {
   font-size: 1rem;
   font-family: var(--font-medium);
 }
@@ -92,4 +92,8 @@ nav {
 
 main {
   background-color: var(--main-background);
+}
+
+footer {
+  font-family: var(--font-medium);
 }

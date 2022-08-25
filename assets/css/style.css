@@ -77,11 +77,29 @@ header {
 
 nav {
   background-color: var(--nav-background);
+  max-height: 12.5rem;
+  max-width: 100%;
+  display: flex;
+}
+
+.info-nav {
+  margin-right: 10.9375rem;
+  width: 12.5rem;
+  display: flex;
+}
+
+.nav-center {
+  align-items: center;
+}
+
+.item-nav {
+  flex: 1;
 }
 
 .icone-nav {
-  color: var(--h4-color);
+  width: 11.25rem;
 }
+
 
 main {
   background-color: var(--main-background);

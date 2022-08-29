@@ -13,12 +13,8 @@
       body {
         font-family: "Roboto Mono", monospace;
         min-height: 400px;
-        background-color: #fff;
-        background-size: 80vh;
-        color: rgb(29, 0, 82);
-        /* background-image: url("https://i.ytimg.com/vi/XIXYk6xIhZs/maxresdefault.jpg"); */
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-color: #ffffff;
+        color: #1d0052;
       }
 
       .container {
@@ -33,44 +29,45 @@
 
       .alura-logo {
         width: 40px;
+        padding: 10px;
+        border-radius: 5px;
         position: absolute;
         top: 10px;
         right: 10px;
+        background-color: #1d0052;
       }
 
       button {
-        margin-left: 10px;
+        font-family: "Roboto Mono", monospace;
+        margin: 30px;
         font-size: 24px;
-        font-family: "Futura Lt BT", sans-serif;
-        background-color: black;
+        background-color: #1d0052;
         background-repeat: no-repeat;
         text-transform: uppercase;
         cursor: pointer;
         overflow: hidden;
         outline: none;
-        padding: 8px 20px 8px 20px;
-        color: white;
-        box-shadow: 0px 0px 5px gray;
-        border-radius: 5px 5px 0 0;
+        padding: 15px;
+        color: #ffffff;
+        box-shadow: 0px 0px 5px #808080;
+        border-radius: 5px;
         border: none;
         transition: 500ms;
-        opacity: 0.8;
-        margin-top: 30px;
-        margin-left: 30px;
       }
 
       button:hover {
-        color: white;
-        background-color: gray;
+        color: #ffffff;
+        background-color: #4d3b6f;
       }
 
       button:active {
-        color: black;
-        background-color: white;
+        color: #1d0052;
+        background-color: #ffffff;
       }
-
+      
       .resultado {
-        margin-bottom: 30px;
+        padding: 10px;
+        color: #8d0a0a;
       }
     </style>
   </head>
@@ -80,9 +77,7 @@
 
       <button id="calcular">Enviar notas</button>
 
-      <h1 class="resultado">resultado:</h1>
-
-      <h2 class="resultado">resultado:</h2>
+      <h2 class="resultado"></h2>
     </div>
 
     <a href="https://alura.com.br/" target="_blank"
@@ -93,17 +88,12 @@
     /></a>
 
     <script>
-      const clicar = document.querySelector("#calcular");
+      const elemento = document.querySelector("#calcular");
+      const resultado = document.querySelector(".resultado");
 
-      clicar.addEventListener("click", dizOi);
-
-      function dizOi() {
-        var element = document.querySelector(".resultado");
-
-        var text = document.createTextNode("Fui clicado");
-
-        element.appendChild(text);
-      }
+      elemento.addEventListener("click", (e) => {
+        resultado.innerHTML = "Fui clicado!!!";
+      });
     </script>
   </body>
 </html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Desafio Aula 1: Manipulando o DOM</title>
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/93569079?v=4" type="image/x-icon">
+    
+    <!-- fonte  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonte  -->
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        --cor-fundo: #a5a5a5;
+        --cor-fonte: #ffffff;
+      }
+
+      body {
+        background: var(--cor-fundo);
+        color: var(--cor-fonte);
+        font-family: "Cinzel", serif;
+        font-size: 2.375rem;
+        user-select: none;
+        transition: 2s;
+      }
+
+      .container {
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .trono {
+        background-image: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/trono-preto.png");
+        background-size: cover;
+        width: 28.125rem;
+        height: 21.875rem;
+        margin-bottom: 7.5rem;
+        position: relative;
+        top: 10%;
+        right: 5%;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="trono"></div>
+      <p id="texto">O inverno está chegando...</p>
+    </section>
+
+    <script>
+      const text = document.querySelector("#texto");
+      text.innerHTML = "O inverno chegou!!!";
+    </script>
+  </body>
+</html>

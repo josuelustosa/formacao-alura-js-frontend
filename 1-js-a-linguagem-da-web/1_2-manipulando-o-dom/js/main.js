@@ -1,13 +1,12 @@
 const robotronName = "Robotron";
-const robotron = document.querySelector("#robotron");
+const subtrair = document.querySelector("#subtrair");
+const braco = document.querySelector("#braco");
+const somar = document.querySelector("#somar");
 
-robotron.addEventListener("click", (evento) => {
-  console.log(evento);
+somar.addEventListener("click", (e) => {
+  braco.value = parseInt(braco.value) + 1;
 });
 
-function dizOi(nome) {
-  console.log("Olá, " + nome + "!");
-  console.log(`Bem-vindo ao ${robotronName}`);
-}
-
-dizOi("Josué");
+subtrair.addEventListener("click", (e) => {
+  braco.value = parseInt(braco.value) - 1;
+});

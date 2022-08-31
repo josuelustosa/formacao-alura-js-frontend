@@ -16,6 +16,8 @@
 > :open_file_folder: 1 - JavaScipt a Linguagem da Web
 >> :open_file_folder: [1.1 - JavaScript para Web: Crie páginas dinâmicas](https://github.com/josuelustosa/formacao-alura-js-frontend/tree/main/1-js-a-linguagem-da-web/1_1-paginas-dinamicas) | :white_check_mark: [Certificado de Conclusão](https://cursos.alura.com.br/user/josuelustosa/course/javascript-web-paginas-dinamicas/certificate)
 
+>> :open_file_folder: [1.2 - JavaScript: Manipulando o DOM](https://github.com/josuelustosa/formacao-alura-js-frontend/tree/main/1-js-a-linguagem-da-web/1_2-manipulando-o-dom)
+
 <br>
 
 ---

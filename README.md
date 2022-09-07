@@ -12,11 +12,11 @@
 
 *Na Alura, formações são trilhas de conhecimento, geralmente, separadas por assuntos mais específicos e focados em uma determinada metodologia. Em resumo, uma formação é feita de uma junção de alguns cursos, seguindo uma ordem lógica de aprendizado, começando com algo mais inicial e avançando gradativamente ([FAQ Alura](https://suporte.alura.com.br/support/solutions/articles/72000565241-qual-a-diferenca-entre-escolas-e-formac%C3%B5es-), 2022).*
 
-## :orange_book: Projetos
+## :orange_book: Cursos
 > :open_file_folder: 1 - JavaScipt a Linguagem da Web
->> :open_file_folder: [1.1 - JavaScript para Web: Crie páginas dinâmicas](https://github.com/josuelustosa/formacao-alura-js-frontend/tree/main/1-js-a-linguagem-da-web/1_1-paginas-dinamicas) | :white_check_mark: [Certificado de Conclusão](https://cursos.alura.com.br/user/josuelustosa/course/javascript-web-paginas-dinamicas/certificate)
+>> :open_file_folder: [1.1 - JavaScript para Web: Crie páginas dinâmicas](https://github.com/josuelustosa/formacao-alura-js-frontend/tree/main/1-js-a-linguagem-da-web/1_1-paginas-dinamicas) | :white_check_mark: [Certificado](https://cursos.alura.com.br/user/josuelustosa/course/javascript-web-paginas-dinamicas/certificate)
 
->> :open_file_folder: [1.2 - JavaScript: Manipulando o DOM](https://github.com/josuelustosa/formacao-alura-js-frontend/tree/main/1-js-a-linguagem-da-web/1_2-manipulando-o-dom)
+>> :open_file_folder: [1.2 - JavaScript: Manipulando o DOM](https://github.com/josuelustosa/formacao-alura-js-frontend/tree/main/1-js-a-linguagem-da-web/1_2-manipulando-o-dom) | :white_check_mark: [Certificado](https://cursos.alura.com.br/user/josuelustosa/course/javascript-manipulando-dom/certificate)
 
 <br>
 

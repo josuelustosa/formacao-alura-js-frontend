@@ -24,8 +24,7 @@
   --h3-color: #808080;
   --p-color: #061b36;
 
-  --font-bold: "Jura", "Courier New", "Arial";
-  --font-medium: "Jura", "Courier New", "Arial";
+  --font-main: "Jura", "Courier New", "Arial";
 
   /* Elementos semânticos */
   --header-background: #6bd1ff;
@@ -44,39 +43,49 @@ h1 {
   color: var(--h1-color);
   font-size: 2rem;
   text-transform: uppercase;
-  font-family: var(--font-bold);
+  font-family: var(--font-main);
   line-height: 1.875rem;
 }
 
 .subtitulo-header {
   color: var(--h1-color);
   font-size: 1rem;
-  font-family: var(--font-bold);
+  font-family: var(--font-main);
 }
 
 h2 {
   color: var(--h2-color);
   text-transform: uppercase;
   font-size: 1.5rem;
-  font-family: var(--font-bold);
+  font-family: var(--font-main);
 }
 
 h3 {
   color: var(--h3-color);
   font-size: 1.125rem;
-  font-family: var(--font-bold);
+  font-family: var(--font-main);
 }
 
 p {
   color: var(--p-color);
   font-size: 1rem;
-  font-family: var(--font-medium);
+  font-family: var(--font-main);
 }
 
-ul,
+ul {
+  padding-top: 0.875rem;
+  font-size: 1.125;
+  font-family: var(--font-main);
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+
 li {
+  list-style-type: none;
+  padding-top: 0.875rem;
   font-size: 1rem;
-  font-family: var(--font-medium);
+  font-family: var(--font-main);
+  padding-left: 1.25rem;
 }
 
 header {
@@ -137,6 +146,12 @@ main {
   background-color: var(--main-background);
 }
 
+section {
+  margin: auto;
+  width: 75%;
+  margin-top: 30px;
+}
+
 footer {
-  font-family: var(--font-medium);
+  font-family: var(--font-main);
 }

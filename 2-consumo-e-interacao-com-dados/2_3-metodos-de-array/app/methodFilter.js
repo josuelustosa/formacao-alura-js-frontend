@@ -14,7 +14,10 @@ function filtrarLivros() {
   console.table(livrosFiltrados);
   exibirOsLivrosNaTela(livrosFiltrados);
 
-  if (categoria == "disponivel") exibirValorTotalDosLivrosDisponiveisNaTela();
+  if (categoria == "disponivel") {
+    const valorTotal = calcularValorTotalDeLivrosDisponiveis(livrosFiltrados);
+    exibirValorTotalDosLivrosDisponiveisNaTela(valorTotal);
+  }
 }
 
 function filtrarLivrosDisponiveis() {
@@ -25,8 +28,8 @@ function filtrarLivrosPorCategoria(categoria) {
   return livros.filter((livro) => livro.categoria == categoria);
 }
 
-function exibirValorTotalDosLivrosDisponiveisNaTela() {
+function exibirValorTotalDosLivrosDisponiveisNaTela(valorTotal) {
   elementoValorTotalDelivrosDisponiveis.innerHTML = `<div class="livros__disponiveis">
-      <p>Todos os livros disponíveis por R$ <span id="valor">299,00</span></p>
+      <p>Todos os livros disponíveis por R$ <span id="valor">${valorTotal}</span></p>
     </div>`;
 }

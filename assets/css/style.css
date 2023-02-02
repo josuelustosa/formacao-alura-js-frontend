@@ -110,11 +110,10 @@ ul {
 }
 
 li {
-  list-style-type: none;
   padding-top: 0.875rem;
   font-size: 1rem;
   font-family: var(--font-main);
-  padding-left: 1.25rem;
+  margin-left: 2.5rem;
   font-weight: 400;
 }
 

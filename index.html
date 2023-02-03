@@ -21,6 +21,7 @@
     <title>Formação Alura: JavaScript para Front-end</title>
 
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/modal.css" />
   </head>
   <body>
     <header>
@@ -32,8 +33,74 @@
           </h1>
         </div>
         <div>
-          <a href="#" class="link-botao-modal">Certificado Formação</a>
-          <a href="#" class="link-botao-modal">?</a>
+          <a href="#" id="myBtn" class="link-botao-modal openmodal myBtn"
+            >Certificado Formação</a
+          >
+          <a href="#" id="myBtnHelp" class="link-botao-modal openmodal myBtn">?</a>
+
+          <!-- The Modal -->
+          <div id="" class="modal myModal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <img
+                  src="assets/img/certificado-teste.png"
+                  alt="Certificado Formação JavaScript para Front-end"
+                  width="500"
+                  height="300"
+                />
+                <img
+                  src="assets/img/certificado-teste.png"
+                  alt="Certificado Formação JavaScript para Front-end"
+                  width="500"
+                  height="300"
+                />
+              </div>
+              <div class="modal-footer">
+                <h3>Baixar</h3>
+              </div>
+            </div>
+          </div>
+
+          <div id="" class="modal myModal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <h3>O que é a Alura?</h3>
+                <p>Alura é uma escola, ou plataforma,
+                  online de tecnologia do Brasil, que oferece cursos de
+                  tecnologia, e conta atualmente com mais de cursos, lançamentos
+                  semanais e atualizações. A plataforma é indicada para qualquer
+                  pessoa física ou jurídica que deseja imergir e se atualizar no
+                  mundo da tecnologia, e até mesmo profissionais que já atuam na
+                  área podem utilizá-la, pois os cursos contém módulos
+                  introdutórios, chegando até aos conteúdos mais avançados (B2B
+                  Stack, 2021).</p>
+
+                  <h3>O que é Formação Alura?</h3>
+                  <p>Na Alura, formações são
+                    trilhas de conhecimento, geralmente, separadas por assuntos mais
+                    específicos e focados em uma determinada metodologia. Em resumo,
+                    uma formação é feita de uma junção de alguns cursos, seguindo
+                    uma ordem lógica de aprendizado, começando com algo mais inicial
+                    e avançando gradativamente (FAQ Alura, 2022).</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Repositório</h3>
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
       </nav>
 
@@ -88,5 +155,6 @@
 
     <script src="./assets/js/dados-projetos.js"></script>
     <script src="./assets/js/lista-projetos.js"></script>
+    <script src="./assets/js/modal.js"></script>
   </body>
 </html>

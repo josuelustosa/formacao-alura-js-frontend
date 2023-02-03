@@ -27,6 +27,8 @@
 
   --background-selection: #061b36;
   --text-selection: #ffffff;
+
+  --box-shadow: #bababa;
 }
 
 ::selection {
@@ -57,6 +59,8 @@ header {
   width: 100%;
   margin: auto;
   background-color: var(--header-background);
+  -webkit-box-shadow: 0px 2px 4px 3px var(--box-shadow);
+  box-shadow: 0px 2px 4px 3px var(--box-shadow);
 }
 
 .elementos-header {
@@ -64,6 +68,7 @@ header {
   justify-content: space-between;
   margin: auto;
   width: 75%;
+  padding: 28px 0px;
 }
 
 @media only screen and (max-width: 37.5rem) {
@@ -72,10 +77,7 @@ header {
     padding: 2rem;
     margin: 0;
     width: auto;
-  }
-
-  img {
-    padding-top: 0.75rem;
+    line-height: 4rem;
   }
 }
 
@@ -125,6 +127,20 @@ a {
 a:hover {
   text-decoration: none;
   font-weight: 600;
+}
+
+.link-botao-modal {
+  text-decoration: none;
+  font-family: var(--font-main);
+
+  padding: 14px 18px;
+  margin-right: 12px;
+  background-color: #061b36;
+  color: #ffffff;
+}
+
+.link-botao-modal:hover {
+  background-color: #09274e;
 }
 
 section,

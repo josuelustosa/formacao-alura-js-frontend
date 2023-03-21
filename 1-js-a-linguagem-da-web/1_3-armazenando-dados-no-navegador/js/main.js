@@ -4,10 +4,16 @@ const lista = document.getElementById("lista");
 form.addEventListener("submit", (evento) => {
   evento.preventDefault();
 
+  const valueNome = evento.target.elements["nome"];
+  const valueQuantidade = evento.target.elements["quantidade"];
+
   criarElemento(
-    (evento.target.elements["nome"].value ? evento.target.elements["nome"].value : 'Vazio'),
-    (evento.target.elements["quantidade"].value ? evento.target.elements["quantidade"].value : '0')
+    valueNome.value ? valueNome.value : "Vazio",
+    valueQuantidade.value ? valueQuantidade.value : "0"
   );
+
+  valueNome.value = "";
+  valueQuantidade.value = "";
 });
 
 function criarElemento(nome, quantidade) {
@@ -21,4 +27,7 @@ function criarElemento(nome, quantidade) {
   novoItem.innerHTML += nome;
 
   lista.appendChild(novoItem);
+
+  localStorage.setItem("nome", nome);
+  localStorage.setItem("quantidade", quantidade);
 }

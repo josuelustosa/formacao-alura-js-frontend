@@ -1,6 +1,8 @@
 const form = document.getElementById("novoItem");
 const lista = document.getElementById("lista");
 
+const itens = []; // array de itens salvos
+
 form.addEventListener("submit", (evento) => {
   evento.preventDefault();
 
@@ -28,6 +30,12 @@ function criarElemento(nome, quantidade) {
 
   lista.appendChild(novoItem);
 
-  localStorage.setItem("nome", nome);
-  localStorage.setItem("quantidade", quantidade);
+  const itemAtual = {
+    nome: nome,
+    quantidade: quantidade,
+  };
+
+  itens.push(itemAtual); // incluindo um item em um objeto de itens para não sobrepor o item anterior
+
+  localStorage.setItem("item", JSON.stringify(itens)); // tranformando o array de itens em JSON com JSON.stringfy(), já que o localStorage só aceita string
 }

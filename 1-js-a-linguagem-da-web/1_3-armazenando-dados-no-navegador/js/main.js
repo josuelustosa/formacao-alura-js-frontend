@@ -26,6 +26,8 @@ form.addEventListener("submit", (evento) => {
     itemAtual.id = existe.id;
 
     atualizaElemento(itemAtual);
+
+    itens[existe.id] = itemAtual; // atualiza item do LocalStorage
   } else {
     itemAtual.id = itens.length;
     criarElemento(itemAtual);

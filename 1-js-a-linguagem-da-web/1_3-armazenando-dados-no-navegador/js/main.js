@@ -52,10 +52,27 @@ function criarElemento(item) {
 
   novoItem.innerHTML += item.nome;
 
+  novoItem.appendChild(botaoDeleta()); // cria o botão de deletar item da lista ('li')
+
   lista.appendChild(novoItem);
 }
 
 function atualizaElemento(item) {
   document.querySelector("[data-id='" + item.id + "']").innerHTML =
     item.quantidade;
+}
+
+function botaoDeleta() {
+  const elementoBotao = document.createElement("button");
+  elementoBotao.innerText = "X";
+
+  elementoBotao.addEventListener("click", function () {
+    deletaElemento(this.parentNode);
+  });
+
+  return elementoBotao;
+}
+
+function deletaElemento(tag) {
+  tag.remove();
 }

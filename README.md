@@ -18,6 +18,8 @@
 
 > :open_file_folder: [1.2 - JavaScript: Manipulando o DOM](https://github.com/josuelustosa/formacao-alura-js-frontend/tree/main/1-js-a-linguagem-da-web/1_2-manipulando-o-dom) | :white_check_mark: [Certificado](https://cursos.alura.com.br/user/josuelustosa/course/javascript-manipulando-dom/certificate)
 
+> :open_file_folder: [1.3 - JavaScript na Web: armazenando dados no navegador](https://github.com/josuelustosa/formacao-alura-js-frontend/tree/main/1-js-a-linguagem-da-web/1_3-armazenando-dados-no-navegador) | :white_check_mark: [Certificado](https://cursos.alura.com.br/user/josuelustosa/course/javascript-web-armazenando-dados-navegador/certificate)
+
 ### :open_file_folder: 2 - Consumo e interação com dados
 > :open_file_folder: [2.2 - JavaScript: consumindo e tratando dados de uma API](https://github.com/josuelustosa/formacao-alura-js-frontend/tree/main/2-consumo-e-interacao-com-dados/2_2-consumindo-e-tratando-api) | :white_check_mark: [Certificado](https://cursos.alura.com.br/user/josuelustosa/course/javascript-consumindo-tratando-dados-api/certificate)
 

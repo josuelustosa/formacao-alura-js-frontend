@@ -19,6 +19,14 @@ const LISTA_DE_PROJETOS = [
         data_final: "31/08/2022",
         patch: "1-js-a-linguagem-da-web/1_2-manipulando-o-dom/index.html",
       },
+      {
+        id_projeto: 3,
+        nome: "Mochila de Viagem",
+        carga_horaria: 6,
+        data_inicio: "21/03/2023",
+        data_final: "27/03/2022",
+        patch: "1-js-a-linguagem-da-web/1_3-armazenando-dados-no-navegador",
+      },
     ],
   },
   {

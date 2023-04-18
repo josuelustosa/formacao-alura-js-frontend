@@ -25,7 +25,7 @@ const LISTA_DE_PROJETOS = [
         carga_horaria: 6,
         data_inicio: "21/03/2023",
         data_final: "27/03/2022",
-        patch: "1-js-a-linguagem-da-web/1_3-armazenando-dados-no-navegador",
+        patch: "1-js-a-linguagem-da-web/1_3-armazenando-dados-no-navegador/index.html",
       },
     ],
   },

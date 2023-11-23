@@ -41,6 +41,18 @@
   margin: auto;
 }
 
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
 h1 {
   color: var(--h1-color);
   font-size: 2rem;
@@ -119,7 +131,7 @@ li {
   font-weight: 400;
 }
 
-a {
+/* a {
   text-decoration: underline;
   color: var(--p-color);
 }
@@ -127,7 +139,7 @@ a {
 a:hover {
   text-decoration: none;
   font-weight: 600;
-}
+} */
 
 .link-botao-modal {
   text-decoration: none;

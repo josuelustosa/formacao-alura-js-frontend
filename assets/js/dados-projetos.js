@@ -50,7 +50,10 @@ const LISTA_DE_PROJETOS = [
         data_final: "30/01/2023",
         patch:
           "2-consumo-e-interacao-com-dados/2_3-metodos-de-array/index.html",
+        img: "assets/img/capas-do-projeto/alurabooks.png"
       },
     ],
   },
 ];
+
+console.log(LISTA_DE_PROJETOS)

@@ -1,0 +1,87 @@
+.card {
+  width: 300px;
+  height: 360px;
+  border: 2px solid #061b36;
+  margin: 12px 24px 48px 0;
+}
+
+.img-head {
+  width: 300px;
+  height: 180px;
+}
+
+.card-body {
+  height: 160px;
+  text-align: center;
+  padding: 0px 8px 0px 8px;
+}
+
+.card-h1 {
+  color: var(--p-color);
+  font-size: 1.125rem;
+  font-family: var(--font-main);
+}
+
+.text-card {
+  color: var(--h3-color);
+  font-size: 1rem;
+  font-family: var(--font-main);
+  text-transform: uppercase;
+}
+
+.flex-course-period {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-period {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-period img {
+  width: 30px;
+}
+
+.badge-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  background-color: var(--header-background);
+  padding: 4px 0px 4px 0px;
+  margin: 8px 0px 8px 0px;
+  width: 90px;
+
+  color: var(--p-color);
+  background-color: var(--main-background);
+  border: 1px solid var(--h2-color);
+
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+.card-button {
+  text-decoration: none;
+  font-family: var(--font-main);
+  text-transform: uppercase;
+  padding: 12px 4px 12px 4px;
+  margin: 16px 0 0 0;
+  width: 100%;
+
+  color: #061b36;
+  background-color: #6bd1ff;
+}
+
+.card-button:hover {
+  /* border: 1px solid var(--p-color); */
+  /* background-color: #09274e; */
+  color: #ffffff;
+  background-color: #061b36;
+}
